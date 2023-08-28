@@ -20,13 +20,25 @@ Inputs:
 """
 
 import re
+import os
 
 class QuizGenerator:
     def __init__(self, category_path,question_ID,question_form_path):
         
         self.category_path = category_path
         self.question_ID = question_ID
-        self.question_form = question_form_path
+        
+        abspath = os.path.abspath(question_form_path)
+        [base, fn] = os.path.split(abspath)
+        
+        self.question_form_abspath = abspath
+        self.question_form_path = base
+        self.question_form_name = fn.split('.')[0]
+        
+        print('Question form example:')
+        print('  -> file abs path:', abspath)
+        print('  -> file base path:', base)
+        print('  -> file name:', fn)
         
         # question form tags
         self.input_tag = '{inp:'
@@ -38,6 +50,9 @@ class QuizGenerator:
         self.tag_inp = tag_inp
         self.tag_out = tag_out
         
+        self.preview_fn = 'preview_question_form.html'
+        self.realization_fn = 'realization_question_form.html'
+        
         print('Question form summary:')
         print('  ->  inputs found:', tag_inp)
         print('  -> outputs found:', tag_out)
@@ -47,7 +62,7 @@ class QuizGenerator:
 # *** Public methods ****
 # ***********************
 
-    def generateQuiz(self, xml_file_name, p_inp, p_out, p_rand, footer=None):
+    def generateQuiz(self, p_inp, p_out, p_rand, footer=None):
         
         # Check size of inputs and outputs in form and data
         if (len(p_inp) != len(self.tag_inp)) or (len(p_out) != len(self.tag_out)):
@@ -56,6 +71,8 @@ class QuizGenerator:
             print('   -> form_outputs={:d}, data_outputs={:d}'.format(len(self.tag_out), len(p_out)))
             return
         
+        xml_file_name = os.path.join(self.question_form_path, self.question_form_name + '.xml')
+        
         questions = []
         nq = len(p_rand)
         for i in range(nq):
@@ -63,13 +80,14 @@ class QuizGenerator:
             questions.append(q)
         
         self.writeQuizXML(xml_file_name, questions)
-        self.writeQuizPreviewForm(questions[0])
+        self.writeQuestionHtmlForm()
+        self.writeRealizationHtmlForm(questions[0])
         
         print()
         print('Generator summary:')
         print('  -> generated {:d} different questions'.format(len(questions)))
         print('  -> Quiz is written in "{:s}" XML file'.format(xml_file_name))
-        print('  -> Quiz is now ready for import in Moodle, mus use XML format!')
+        print('  -> Quiz is now ready for import in Moodle. Import needs XML format importer!')
         
         
 
@@ -229,16 +247,69 @@ class QuizGenerator:
         
         return form
     
-    # Write a preview form to include in html
-    def writeQuizPreviewForm(self, q):
+    
+    # Closes question xml tag
+    def getHtmlHeader(self):
         
-        fp = open('realization_form.txt', 'w')
+        txt = '<html>' + '\n'
+        txt += '\t' + '<head>' + '\n'
+        txt += '\t\t' + '<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></meta>' + '\n'
+        txt += '\t\t' + '<title>Moodle - Embedded Answer (Cloze) Quiz preview</title>' + '\n'
+        txt += '\t\t' + '<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>' + '\n'
+        txt += '\t\t' + '<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>' + '\n'
+        txt += '\t\t' + '<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>' + '\n'
+        txt += '\t' + '</head>' + '\n'
+        txt += '\t' + '<body>' + '\n'
+        txt += '\t\t' + '<!-- START of question -->' + '\n'
+        
+        return txt
+    
+        # Closes question xml tag
+    def getHtmlFooter(self):
+        
+        txt = '\t\t' + '<!-- START of question -->' + '\n'
+        txt += '\t' + '</body>' + '\n'
+        txt += '<html>' + '\n'
+        
+        return txt
+    
+    
+    # Write a preview form to include in html
+    def writeQuestionHtmlForm(self):
+        
+        file_name = os.path.join(self.question_form_path, 'preview_' + self.question_form_name + '.html')
+        
+        fp = open(file_name, 'w')
+        
+        fp.write(self.getHtmlHeader())
+        
+        # write Quiz
+        form_file = open(self.question_form_abspath, 'r') 
+        for line in form_file:
+            fp.write(line)
+            fp.write('\n')
+        form_file.close()
+            
+        fp.write(self.getHtmlFooter())
+        
+        fp.close()
+        
+    # Write a preview form to include in html
+    def writeRealizationHtmlForm(self, q):
+        
+        file_name = os.path.join(self.question_form_path, 'realization_' + self.question_form_name + '.html')
+        
+        fp = open(file_name, 'w')
+        
+        fp.write(self.getHtmlHeader())
         
         # write Quiz
         lines = q.splitlines()
         for l in lines:
             fp.write(l)
             fp.write('\n')
+            
+        fp.write(self.getHtmlFooter())
         
         fp.close()
         

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="category">
+		<category>
+			<text><![CDATA[$course$/test/2022/q-01]]></text>
+		</category>
+	</question>
+
+	<!-- question 001 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 001]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 62591.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.97 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.20 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 20.80 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 845.76 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=10.08:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-40.66:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=61745.2:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.68:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 002 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 002]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 59263.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.77 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.41 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 21.99 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 1136.92 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=10.09:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-51.70:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=58126.1:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.57:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 003 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 003]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 58848.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.08 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.77 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 18.64 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 985.56 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.93:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-52.87:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=57862.4:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.40:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 004 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 004]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 60652.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.21 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.57 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 21.46 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 1171.80 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.89:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-54.62:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=59480.2:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.34:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 005 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 005]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 55205.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.87 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.41 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 21.82 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 1124.48 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=10.14:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-51.53:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=54080.5:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.63:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 006 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 006]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 63101.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.29 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.57 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 18.65 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 1039.60 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.93:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-55.74:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=62061.4:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.37:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 007 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 007]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 64481.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.05 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.07 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 20.00 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 930.20 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.56:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-46.51:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=63550.8:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.10:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 008 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 008]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 64392.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.88 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.14 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 20.94 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 1114.16 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=10.01:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-53.22:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=63277.8:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.48:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 009 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 009]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 59515.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.91 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.09 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 18.96 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 930.64 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=10.00:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-49.09:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=58584.4:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.51:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+	<!-- question 010 -->
+	<question type="cloze">
+	<name>
+	<text><![CDATA[Vprašanje - 010]]></text>
+	</name>
+	<questiontext>
+	<text><![CDATA[
+				Ladja z deplasmanom \( \Delta = 63075.0 \, \mathrm{t} \) ima ugrez na premcu \( T_\mathrm{f} = 10.20 \, \mathrm{m} \), ugrez na krmi \( T_\mathrm{a} = 9.72 \, \mathrm{m} \) in podatek \( \mathrm{TPC} = 18.97 \, \mathrm{t/cm} \). Iz ladje izkrcamo tovor mase \( \mathrm{m} = 849.12 \, \mathrm{t} \). 
+				<br>
+				
+				<br>
+				<img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
+				<br>
+				
+				<br>
+				<hr>
+				<br>
+				
+				<strong>Vprašanje:</strong><br>
+				Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+				<br>
+				
+				<br>
+				<table cellpadding="5px" border="1px solid black">
+				    <thead>
+				        <tr>
+				            <th>#</th>
+				            <th>Oznaka</th>
+				            <th>Vrednost</th>
+				            <th>Enota</th>
+				            <th>Komentar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr><td align="right">1</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.96:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">začetni srednji ugrez; 1 točka</td></tr>
+				        <tr><td align="right">2</td><td align="right">\(\Delta T\)</td><td align="right">{2:NUMERICAL:=-44.76:2.00#}</td><td align="left">\(\mathrm{cm}\)</td><td align="left">sprememba ugreza; 2 točki</td></tr>
+				        <tr><td align="right">3</td><td align="right">\(\Delta\)</td><td align="right">{1:NUMERICAL:=62225.9:5.0#}</td><td align="left">\(\mathrm{t}\)</td><td align="left">deplasman na koncu; 1 točka</td></tr>
+				        <tr><td align="right">4</td><td align="right">\(T_\mathrm{s}\)</td><td align="right">{1:NUMERICAL:=9.51:0.02#}</td><td align="left">\(\mathrm{m}\)</td><td align="left">srednji ugrez na koncu; 2 točki</td></tr>
+				    </tbody>
+				</table>
+				<br>
+				
+				<br>
+				<p style="color:red"><b>Pozor:</b></p>
+				<ul>
+				    <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
+				    <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
+				    <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
+				</ul>
+			]]></text>
+		</questiontext>
+		<shuffleanswers>0</shuffleanswers>
+	</question>
+
+</quiz>

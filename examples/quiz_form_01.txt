@@ -1,15 +1,19 @@
 Ladja z deplasmanom {inp:1} ima ugrez na premcu {inp:2}, ugrez na krmi {inp:3} in podatek {inp:4}. Iz ladje izkrcamo tovor mase {inp:5}. 
+<br>
 
-<br><br>
+<br>
 <img src="http://ocean.fpp.uni-lj.si/moodle-quiz/figs/nol-01/fig_02-01.png" width="800px">
-<br><br>
+<br>
 
+<br>
 <hr>
 <br>
+
 <strong>Vprašanje:</strong><br>
 Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah tovora in goriva
+<br>
 
-<br><br>
+<br>
 <table cellpadding="5px" border="1px solid black">
     <thead>
         <tr>
@@ -18,28 +22,21 @@ Izračunaj sledeče parametre <strong>po vseh opravljenih</strong> manipulacijah
             <th>Vrednost</th>
             <th>Enota</th>
             <th>Komentar</th>
-        <tr>
+        </tr>
     </thead>
     <tbody>
-        <tr>
-            {out:1}
-        </tr>
-        <tr>
-            {out:2}
-        </tr>
-        <tr>
-            {out:3}
-        </tr>
-        <tr>
-            {out:4}
-        </tr>
+        <tr>{out:1}</tr>
+        <tr>{out:2}</tr>
+        <tr>{out:3}</tr>
+        <tr>{out:4}</tr>
     </tbody>
 </table>
+<br>
 
-<br><br>
+<br>
 <p style="color:red"><b>Pozor:</b></p>
 <ul>
     <li>Obvezna uporaba decimalne pike (.) namesto decimalne vejice (,)!</li>
     <li>Rezultat zapišite na 2 decimalni mesti natančno!</li>
     <li>Primer vnosa rezutata na 2 decimalni mesti natančno: 84.34</li>
-<ul>
+</ul>

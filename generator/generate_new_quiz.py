@@ -6,7 +6,12 @@ Created on Thu Jan 27 14:44:18 2022
 @author: sandro
 """
 
+# Nalaganje potrebnih paketoc
 import sys
+
+# sources path
+sys.path.append('../src')
+
 import random as rnd
 import quizgenerator as qg
 
@@ -125,13 +130,12 @@ def main():
     # *** quiz parameters ***
     category_path = 'test/2022'
     question_ID = 'q-01'
-    question_form_path = '../html/question_form.txt'
-    quiz_file_name = '../html/quiz_q-01.xml'
+    question_form_path = '../examples/quiz_form_01.txt'
     
     # *** initial Quiz ***
     quiz = qg.QuizGenerator(category_path, question_ID, question_form_path)
     # generate randomized Quiz
-    quiz.generateQuiz(quiz_file_name, p_inp, p_out, p_rand)
+    quiz.generateQuiz(p_inp, p_out, p_rand)
 
 if __name__ == '__main__':
     sys.exit(main())
