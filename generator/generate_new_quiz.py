@@ -130,7 +130,7 @@ def main():
     # *** quiz parameters ***
     category_path = 'test/2022'
     question_ID = 'q-01'
-    question_form_path = '../examples/quiz_form_01.txt'
+    question_form_path = 'quiz_form_01.txt'
     
     # *** initial Quiz ***
     quiz = qg.QuizGenerator(category_path, question_ID, question_form_path)
