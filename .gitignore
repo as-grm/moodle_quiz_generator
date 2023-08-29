@@ -1,3 +1,6 @@
 
 **/.DS_Store
-**checkpoints**
+**/*checkpoints*
+**/*.html
+**/*.xml
+**/*.pyc
